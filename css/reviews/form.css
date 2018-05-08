@@ -1,0 +1,268 @@
+.form {
+    /* Style for "Rounded Re" */
+    width: 700px;
+    height: 427px;
+    background-color: #f5f5f5;
+    margin: auto;
+    margin-top: 57px;
+    margin-bottom: -26px;
+
+}
+
+.form__inner {
+    width: 563px;
+    height: 328px;
+    padding-top: 32px;
+    margin-left: 70px;
+    font-family: 'Gotham Pro Light';
+    font-size: 14px;
+}
+
+.form__title {
+    margin: 0;
+    font-family: 'Gotham Pro Bold';
+    font-size: 49px;
+    margin-top: 10px;
+}
+
+.form__input {
+    display: inline-block;
+
+    margin-top: 15px;
+    width: 269px;
+    float: left;
+}
+
+.form__input--indent {
+    margin-right: 22px;
+}
+
+.form__text {
+    padding-left: 10px;
+    border-radius: 6px;
+    width: 259px;
+    height: 45px;
+    border: 1px solid transparent;
+    display: inline-block;
+    margin-top: 5px;
+    font-family: 'Gotham Pro Light';
+    font-size: 14px;
+
+
+}
+.form__field-title {
+    font-family: 'Gotham Pro Light';
+    font-size: 14px;
+
+}
+.form__big-text {
+    /* Style for "Rounded Re" */
+    width: 551px;
+    height: 85px;
+    border: 1px solid transparent;
+    margin-top: 5px;
+    overflow: hidden; /* или auto */
+    border-radius: 6px;
+    padding-left: 10px;
+    resize: none;
+    padding-top: 5px;
+    font-family: 'Gotham Pro Light';
+    font-size: 14px;
+
+}
+
+.form__big-text:focus, .form__text:focus {
+    border: 1px solid #ec1e79;
+    outline: none;
+}
+
+.form__controls-title {
+    margin-bottom: 9px;
+
+}
+
+.form__row {
+    width: 561px;
+    height: 106px;
+}
+
+.form__controls-btns {
+    overflow: hidden;
+}
+
+.form__controls-trigger {
+    position: relative;
+    display: inline-block;
+
+    height: 30px;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.form__radio, .form__trigger-title {
+    display: inline-block;
+    width: 30px;
+}
+
+.form__controls {
+    float: left;
+    width: 50%;
+
+}
+/*.form__radio:checked + label { color: #ec1e79 ;*/
+/*}*/
+.form__send-btns {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+/*.form__radio:checked + label:before {*/
+    /*content: "";*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*display: inline-block;*/
+    /*border: 1px solid #ec1e79;*/
+    /*background-color: #ffffff;*/
+    /*border-radius: 50%;*/
+    /*vertical-align: middle;*/
+
+/*}*/
+/*.form__radio:checked + label:after {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 1px;*/
+    /*left: 4px;*/
+    /*width: 8px;*/
+    /*height: 8px;*/
+    /*border-radius: 50%;*/
+    /*background: #ec1e79;*/
+
+    /*opacity: 0;*/
+    /*transition: all .2s;*/
+/*}*/
+
+
+
+
+
+
+/*.form__trigger-title:before {*/
+
+    /*content: "";*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*display: inline-block;*/
+    /*border: 1px solid #c9c9c9;*/
+    /*background-color: #ffffff;*/
+    /*border-radius: 50%;*/
+    /*vertical-align: middle;*/
+
+/*}*/
+/*.form__controls-trigger:focus {*/
+    /*color: #ec1e79;*/
+
+/*}*/
+
+.form__send { /* Style for "Rounded Re" */
+    width: 139px;
+    height: 45px;
+    background-color: #27273e;
+    border-radius: 5px;
+    color: #ffffff;
+    letter-spacing: 2.4px;
+    font-family: 'Gotham Pro Bold';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 5px;
+    border: 1px solid transparent;
+
+
+}
+.form__send:hover {
+    background-color: #ec1e79;
+    border: 1px solid transparent;
+
+}
+/*.form__radio {*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*border: 1px solid #c9c9c9;*/
+/*}*/
+
+/*.form__radio_active {*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*border: 1px solid #ec1e79;*/
+/*}*/
+.form__row--down {
+    margin-top: 20px;
+}
+/*.visually-hidden {*/
+    /*position: absolute !important;*/
+    /*clip: rect(1px 1px 1px 1px); !* IE6, IE7 *!*/
+    /*clip: rect(1px, 1px, 1px, 1px);*/
+    /*padding:0 !important;*/
+    /*border:0 !important;*/
+    /*height: 1px !important;*/
+    /*width: 1px !important;*/
+    /*overflow: hidden;*/
+/*}*/
+
+/*кнопки*/
+
+.form__radio {
+    vertical-align: top;
+    width: 17px;
+    height: 17px;
+    margin: 0 3px 0 0;
+}
+.form__radio + label {
+    cursor: pointer;
+}
+.form__radio:not(checked) {
+    position: absolute;
+    opacity: 0;
+
+}
+.form__radio:checked + label { color: #ec1e79 ;
+}
+.form__radio:not(checked) + label {
+    position: relative;
+    padding: 0 0 0 25px;
+
+}
+.form__radio:not(checked) + label:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 50%;
+
+    background: white;
+}
+.form__radio:not(checked) + label:after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+
+    background: #ec1e79;
+
+    opacity: 0;
+    transition: all .2s;
+}
+.form__radio:checked + label:after {
+    opacity: 1;
+
+}
+.form__radio:focus + label:before {
+    border: 1px solid #ec1e79;;
+
+}

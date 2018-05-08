@@ -1,0 +1,129 @@
+
+.footer__logo {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.social__text {
+    color: #ffffff;
+    font-family: 'Gotham Pro Bold';
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+
+
+.social__icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.social__list,  .social__item {
+    display: inline-block;
+}
+
+.social__list {
+    margin-right: 20px;
+}
+
+.social {
+
+    width: 33.3%;
+    float: left;
+    margin-top: 15px;
+    text-align: right;
+
+}
+
+.social__item {
+    margin-right: 7px;
+}
+
+.adress {
+    width: 264px;
+}
+
+.autor__name {
+    font-weight: bold;
+    социальные сети
+}
+
+.autor {
+
+    color: #ffffff;
+    font-family: 'Gotham Pro Light';
+    font-size: 14px;
+    line-height: 18px;
+    width: 33.3%;
+    float: left;
+    margin-top: 10px;
+}
+
+.footer {
+    height: 77px;
+    background-color: #27273e;
+    margin-top: -77px;
+    min-width: 1100px;
+    position: relative;
+
+}
+
+
+
+.adress__loftsh {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+/*спрайт*/
+.social__link {display: block;
+    width: 20px;
+    height: 20px;
+    background: url("../../img/tariff/spritessocial.png") no-repeat;
+
+
+}
+.social__link--vk {
+    background-position: 0 0;
+
+}
+.social__link--vk:hover {
+    background-position: 0 bottom;
+
+}
+.social__link--fb {
+    background-position: -99px 0;
+
+}
+.social__link--fb:hover {
+    background-position: -100px bottom;
+
+}
+.social__link--google {
+    background-position: -200px 0;
+}
+.social__link--google:hover {
+    background-position: -200px bottom;
+}
+.social__link--tw {
+    background-position: -300px 0;
+}
+.social__link--tw:hover {
+    background-position: -300px bottom;
+}
+.social__link--mail {
+    background-position: -400px 0;
+
+}
+.social__link--mail:hover {
+    background-position: -400px bottom;
+
+}

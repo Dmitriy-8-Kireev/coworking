@@ -1,0 +1,244 @@
+
+.main {
+    float: left;
+    width: 880px;
+    margin-top: 44px;
+}
+
+.title {
+    margin-top: 15px;
+}
+
+.banner {
+    width: 1100px;
+    height: 359px;
+    background: url('../img/.jpg') center center no-repeat #27273e;
+}
+
+h2 {
+    font-family: 'Gotham Pro Bold';
+    font-size: 49px;
+    margin: 0;
+}
+
+.feeds__data {
+    font-family: 'Gotham Pro Light', sans-serif;
+    font-size: 14px;
+    color: #656464;
+    line-height: 15px;
+
+}
+
+.feeds__name {
+    font-family: 'Gotham Pro Light', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.feeds__content {
+    font-family: 'Gotham Pro Light', sans-serif;
+    color: #221f1f;
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.feeds__pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+
+.feeds__text {
+    width: 700px;
+    padding-left: 20px;
+    float: left;
+}
+
+.feeds__item {
+    border-bottom: 2px solid #f5f5f5;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.feeds__list {
+    margin-top: 42px;
+}
+
+.feeds__item:last-child {
+    border-bottom: none;
+}
+
+.flower {
+    position: relative;
+
+    width: 68px;
+    height: 68px;
+    background-color: #27273e;
+    border-radius: 50%;
+
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.star {
+    position: relative;
+    width: 72px;
+    height: 72px;
+    background-color: #27273e;
+    border-radius: 50%;
+}
+
+.pallete {
+    position: relative;
+    width: 66px;
+    height: 66px;
+    background-color: #27273e;
+    border-radius: 50%;
+}
+
+.flower, .star, .pallete {
+    overflow: hidden;
+}
+
+.icon__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.features__list {
+    list-style: none;
+}
+
+.privilege__list {
+    list-style: disc;
+    color: #cc3366;
+}
+
+/* добавил стили */
+.privilege__content, .feauteres__text {
+    color: #221f1f;
+    font-family: 'Gotham Pro Light';
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.feauteres__title {
+    color: #212121;
+    font-family:'Gotham Pro Light';
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 51.38px;
+    letter-spacing: 2.88px;
+}
+
+.wrapper:after {
+    content: "";
+    height: 77px;
+    display: block;
+}
+
+.pagination__text {
+
+    color: #656464;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.item {
+    width: 8px;
+    height: 12px;
+    color: #221f1f;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+
+
+.breadcrumbs {
+    margin: 0;
+    padding: 0; /* Убираем отступы */
+}
+
+.breadcrumbs li {
+    display: inline-block; /* Выстраиваем по горизонтали */
+}
+
+.breadcrumbs li::before {
+    content: '/'; /* Разделитель */
+    color: #7d7b7b; /* Цвет разделителя */
+}
+
+.breadcrumbs li:first-child::before {
+    content: ''; /* Убираем разделитель для первого пункта */
+}
+
+.breadcrumbs__link {
+    font-family: 'Gotham Pro Light Italic';
+    font-size: 14px;
+    color: #ec1e79;
+}
+
+.breadcrumbs__link--active {
+    text-decoration: none;
+    color: #221f1f;
+
+}
+
+.action__img {
+
+    height: 174px;
+    background-color: #27273e;
+    background: url('../../img/reviews/Rectangle1.jpg');
+}
+
+.action__text {
+    width: 615px;
+    height: 77px;
+    color: #ffffff;
+    font-family: 'Gotham Pro Light';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+
+    margin-left: 212px;
+}
+.action__container {
+    padding-top: 43px;
+}
+.action__span {
+    color: #ec1e79;
+    font-weight: 700;
+}
+
+.action {
+    margin-top: 48px;
+
+    min-width: 1100px;
+}
+.feeds__pic--white {
+    background: #f5f5f5;
+    position: relative;
+}
+.feeds__imeg--white {
+    position:absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}

@@ -1,0 +1,146 @@
+.sidebar {
+    float: left;
+    width: 180px;
+    margin-top: 30px;
+}
+
+.sidebar__link:hover {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.sidebar__list {
+    font-family: 'Gotham Pro Bold';
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 50px;
+    letter-spacing: 1.2px;
+
+}
+
+
+.sidebar__link {
+    color: #ec1e79;
+    text-decoration: none;
+}
+
+.sidebar__link--active {
+    color: #000000;
+    text-decoration: none;
+}
+
+.pagination {
+    width: 600px;
+
+    margin: auto;
+    padding-left: 120px;
+}
+/*поменял*/
+
+.pagination__list {
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+}
+/*поменял*/
+.pagination__item, .pagination__text, .pagination__list {
+
+    display: inline-block;
+    text-align: center;
+}
+.pagination__item {
+    width: 25px;
+
+}
+.pagination__item--active {
+    width: 25px;
+    height: 25px;
+    background-color: #27273e;
+    border-radius: 5px;
+    color: #ec1e79;
+}
+
+li.sidebar__item {
+
+    text-decoration: none;
+}
+
+.pagination__link {
+    width: 8px;
+    height: 12px;
+    color: #221f1f;
+    font-family: 'Gotham Pro Bold';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.pagination__link--active {
+    color: #ec1e79;
+}
+
+
+.pagination__text {
+
+    color: #656464;
+    font-family: 'Gotham Pro Light';
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 83px;
+    padding-left: 20px;
+}
+
+.sidebar__item {
+    margin-bottom: -5px;
+}
+
+
+.sidebar__text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 11px;
+}
+
+/*спрайты*/
+.sidebar__icon {
+    background: url(../img/menu.png) 0 0 no-repeat;
+    width: 20px;
+    height: 20px;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+.sidebar__icon--main {
+
+
+    background-position: 0 0;
+
+}
+
+
+
+.sidebar__icon--feed {
+
+    background-position: -100px bottom;
+
+}
+
+.sidebar__icon--wallet {
+
+
+    background-position: -200px 0;
+
+}
+.sidebar__item:hover .sidebar__icon--main {
+    background-position: 0 bottom;
+}
+
+.sidebar__item:hover .sidebar__icon--feed {
+    background-position: -100px bottom;
+}
+.sidebar__item:hover .sidebar__icon--wallet {
+    background-position: -200px bottom;
+}

@@ -1,0 +1,82 @@
+
+
+body {
+    overflow: hidden;
+    /*-moz-background-size: 100%; !* Firefox 3.6+ *!*/
+    /*-webkit-background-size: 100%; !* Safari 3.1+ и Chrome 4.0+ *!*/
+    /*-o-background-size: 100%; !* Opera 9.6+ *!*/
+    /*background-size: 100%; !* Современные браузеры *!*/
+    text-align: center;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+
+
+}
+.wrapper:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 0;
+    vertical-align: middle;
+}
+.gate {
+    width: 182px;
+    height: 192px;
+    display: inline-block;
+    vertical-align: middle;
+
+  }
+
+
+
+.gate__link {
+    background: url("../../img/opening/logo.png");
+    background-repeat: no-repeat;
+    width: 164px;
+    height: 118px;
+    display: inline-block;
+
+
+}
+.gate__img {
+    display: none;
+}
+
+.gate__send-button {
+    border: 3px solid #ec1e79;
+    color: #ec1e79;
+    letter-spacing: 1.2px;
+    font-family: 'Gotham Pro Bold';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: transparent;
+    margin-top: 26px;
+    display: block;
+    text-decoration: none;
+    padding: 11px;
+}
+.gate__send-button:hover {
+    background-color: #ec1e79;
+    color: #ffffff;
+    }
+.intro {
+    background: url("../../img/opening/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('OpenSans-Bold.eot');
+    src: url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('OpenSans-Bold.woff') format('woff'),
+    url('OpenSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('GothamPro-Light.eot');
+    src: url('GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('GothamPro-Light.woff') format('woff'),
+    url('GothamPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Bold';
+    src: url('GothamPro-Bold.eot');
+    src: url('GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('GothamPro-Bold.woff') format('woff'),
+    url('GothamPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Light Italic';
+    src: url('GothamPro-LightItalic.eot');
+    src: url('GothamPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('GothamPro-LightItalic.woff') format('woff'),
+    url('GothamPro-LightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

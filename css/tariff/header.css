@@ -1,0 +1,108 @@
+.header {
+    height: 75px;
+    background: #27273e;
+}
+
+.logotip {
+    float: left;
+    width: 50%;
+    margin-top: 12px;
+}
+
+.contacts {
+    float: left;
+    width: 50%;
+    text-align: right;
+    margin-top: 18px;
+
+}
+
+.logo, .contacts {
+    display: inline-block;
+}
+
+
+.contacts__phone {
+    font-family: 'Gotham Pro Bold';
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+}
+.logo {
+    width: 99px;
+    height: 51px;
+    overflow: hidden;
+}
+
+/*меню*/
+.contacts__pop-up {
+    position: absolute;
+    width: 163px;
+    height: 70px;
+    background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
+    margin: 20px;
+    border: 1px solid transparent;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+    top: 25px;
+//left: 65%;
+    z-index: 10;
+    left: -9999px;
+
+}
+.contacts__pop-up:after {
+    position: absolute;
+    content: "";
+    top: -10px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ffffff;
+
+
+}
+.contacts__pop-up:before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    right: 0;
+    width: 150px;
+    height: 50px;
+    bottom: 91%;
+}
+.contacts__desc {
+    position: relative;
+}
+.contacts__desc:hover .contacts__pop-up {
+    left: 65%;
+}
+.contacts__desc:hover .contacts__link {
+    opacity: 0.7;
+    color: #5dd1f8;
+}
+.contacts__time {
+    color: #ec1e79;
+    font-family: "Gotham Pro Bold";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 18px;
+    margin-right: 10px;
+    margin-left: 11px;
+    text-align: left;
+}
+.contacts__lunch-time{
+    font-family:'Gotham Pro Light', sans-serif;
+    color: #221f1f;
+}
+.contacts__link {
+    font-family: 'Open Sans Bold';
+    color: #ec1e79;
+    font-size: 14px;
+    text-decoration: underline;
+    font-style: normal;
+
+}
