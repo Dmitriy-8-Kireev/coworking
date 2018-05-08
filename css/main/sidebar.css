@@ -31,36 +31,65 @@
 }
 
 .pagination {
-    width: 600px;
-    margin: auto;
-    margin-top: 15px;
-    padding-left: 120px;
-    margin-bottom: 67px;
-
+  width: 600px;
+  margin: auto;
+  margin-top: 15px;
+  padding-left: 120px;
+  margin-bottom: 67px;
+  text-align: left;
 }
-/*поменял*/
+.pagination__text {
+  color: #656464;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 4%;
+}
 .pagination__list {
-    list-style: none;
-    display: inline-block;
-    margin: auto;
-    text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin: auto;
+  text-decoration: none;
 }
- /*поменял*/
-.pagination__item, .pagination__text, .pagination__list {
-
-    display: inline-block;
-    text-align: center;
+.pagination__item,
+.pagination__text,
+.pagination__list {
+  display: inline-block;
+  text-align: center;
 }
 .pagination__item {
-    padding: 3px 8px;
-}
-.pagination__item--active {
+  padding: 3px 8px;
 
-    background-color: #27273e;
-    border-radius: 5px;
-    color: #ec1e79;
-    padding: 3px 8px;
 }
+.pagination__item:hover {
+     background-color: #27273e;
+  border-radius: 5px;
+  color: #ec1e79;
+  padding: 3px 8px;
+}
+.pagination__item:hover .pagination__link {
+  color: #ec1e79;}
+
+.pagination__item--active {
+   background-color: #27273e;
+  border-radius: 5px;
+  color: #ec1e79;
+  padding: 3px 8px;
+}
+.pagination__link {
+  width: 8px;
+  height: 12px;
+  color: #221f1f;
+  font-family: Roboto, serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-decoration: none;
+}
+.pagination__link--active {
+  color: #ec1e79;
+}
+
 li.sidebar__item {
 
     text-decoration: none;
@@ -83,29 +112,9 @@ li.sidebar__item {
     vertical-align: middle;
     margin-left: 11px;
 }
-
-
-
-.pagination__link {width: 8px;
-    height: 12px;
-    color: #221f1f;
-    font-family: Roboto, serif;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 21px;
-    text-decoration: none;}
-.pagination__link--active {
-    color: #ffffff;
+li.sidebar__item {
+  text-decoration: none;
 }
-.pagination__text {
-
-    color: #656464;
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 21px;
-    margin-left: 83px;
-    padding-left: 80px;
-
+.sidebar__item {
+  margin-bottom: -5px;
 }
-
-
